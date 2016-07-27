@@ -5,6 +5,10 @@
 <br />
 <%= @job.description %>
 </div>
+<%= @job.wage_lower_bound %>
+</div>
+<%= @job.wage_upper_bound %>
+</div>
 
 <div>
 <%= link_to("Back to job list", admin_jobs_path, :class => "btn btn-default")  %>

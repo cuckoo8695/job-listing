@@ -25,7 +25,7 @@ class JobsController < ApplicationController
 
   def update
     @job = Job.find(params[:id])
-    @job.update
+    @job.update(job_params)
     redirect_to jobs_path, notice:"Update success"
   end
 
