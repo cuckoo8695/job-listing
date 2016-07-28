@@ -1,12 +1,6 @@
 source 'https://rubygems.org'
 
-gem "annotate"
 
-gem "simple_form"
-
-gem "devise"
-
-gem "bootstrap-sass"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
@@ -35,6 +29,18 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+
+gem "annotate"
+
+gem "simple_form"
+
+gem "devise"
+
+gem "bootstrap-sass"
+
+gem "font-awesome-rails"
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
